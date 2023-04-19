@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: "Lato", sans-serif;
 }
+
 .lato {
   font-family: "Lato", sans-serif;
 }
@@ -60,7 +61,6 @@ body {
   margin: 0;
   padding: 0;
   background: url(/images/backMatrixRed.jpg);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-position: center;
@@ -81,7 +81,7 @@ body {
 
 .service-card {
   background: rgba(0, 0, 0, 0.5);
-  flex-direction: row
+  flex-direction: row;
 }
 
 .invert {
@@ -109,8 +109,6 @@ body {
   position: relative;
   width: 180px;
   height: 180px;
-  /* border: 1px solid #000; */
-  /* padding-bottom: 30%; */
 }
 
 .card-img-bg {
@@ -144,11 +142,12 @@ body {
     padding: 3rem;
     gap: 1rem;
     flex-wrap: wrap;
-
   }
+
   .card-title {
     min-width: 9rem;
   }
+
   .service-card {
     display: flex;
     flex-direction: column;
