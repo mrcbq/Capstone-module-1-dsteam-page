@@ -1,0 +1,77 @@
+/* @font-face {
+  font-family: 'Cocogoosetrial';
+  src: url('./fonts/Cocogoosetrial.eot');
+  src: url('./fonts/Cocogoosetrial.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/Cocogoosetrial.woff2') format('woff2'),
+       url('./fonts/Cocogoosetrial.woff') format('woff'),
+       url('./fonts/Cocogoosetrial.ttf') format('truetype'),
+       url('./fonts/Cocogoosetrial.svg#Cocogoosetrial') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.cocogoose {
+  font-family: 'cocogoose', sans-serif;
+}
+
+.display-none {
+  display: none;
+}
+
+.color-blank {
+  color: #d3d3d3;
+  text-align: center;
+}
+
+.color-red {
+  color: #ec5242;
+}
+
+.greet-p {
+  font-size: 1rem;
+  text-align: left;
+  background: #f8f9fa;
+  border: 2px solid #fff;
+}
+
+.div-red-under-text {
+  margin: auto;
+  width: 3rem;
+  border: 1px solid #ec5242;
+}
+ 
+#title {
+  font-family: 'cocogoose', sans-serif;
+  font-size: 3em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  background: url(/images/backMatrixRed.jpg);
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: center;
+  background-size: contain;
+}
+
+#home {
+  background: url(./images/homeBack.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#services {
+  /* background-color: #272A31; */
+  background-image: url(/images/backBlack.jpg);
+}
