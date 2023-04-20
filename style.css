@@ -79,15 +79,29 @@ body {
   background-image: url(/images/backBlack.jpg);
 }
 
+#services-wrapper {
+  display: flex;
+}
+
 .service-card {
+  display: flex;
   background: rgba(0, 0, 0, 0.5);
   flex-direction: row;
 }
 
+.contact-button {
+  display: block;
+  margin: 3rem auto;
+  padding: 2rem;
+  color: #d3d3d3;
+  background: #ec5242;
+  font-weight: 800;
+}
+
 .invert {
   filter: invert(100%);
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
 }
 
 .card-title {
@@ -96,6 +110,7 @@ body {
 
 .card-text {
   text-align: left;
+  font-size: 0.8rem;
 }
 
 #courses-wrapper {
@@ -134,29 +149,38 @@ body {
   }
 
   #services-wrapper {
-    display: flex;
-    flex-direction: row;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
     width: 95%;
-    align-self: center;
     margin: 1rem auto;
-    padding: 3rem;
-    gap: 1rem;
-    flex-wrap: wrap;
+    padding: 3rem 0;
+    gap: 0.8rem;
   }
 
   .card-title {
-    min-width: 9rem;
+    min-width: 3rem;
   }
 
   .service-card {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 18%;
-    align-content: flex-start;
   }
 
   .course-card {
     width: 50%;
+  }
+
+  .contact-button {
+    display: none;
+  }
+
+  .see-whole-progam {
+    display: flex;
+    justify-content: center;
+    color: #d3d3d3;
+    text-decoration: underline;
+    cursor: pointer;
   }
 }
