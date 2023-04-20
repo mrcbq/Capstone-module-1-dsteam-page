@@ -388,7 +388,7 @@ body {
   }
 
   .show-on-desktop {
-    display: inline-block;
+    display: block;
   }
 
   .hide-on-desktop {
