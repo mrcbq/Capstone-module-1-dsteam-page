@@ -142,6 +142,16 @@ body {
   width: 80%;
 }
 
+#more-btn {
+  display: block;
+  justify-content: center;
+  color: #272a31;
+}
+
+.active-more-bnt {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .greet-p {
     margin: 0;
@@ -182,5 +192,13 @@ body {
     color: #d3d3d3;
     text-decoration: underline;
     cursor: pointer;
+  }
+
+  #more-btn {
+    display: none;
+  }
+
+  .active-more-bnt {
+    display: flex;
   }
 }

@@ -41,9 +41,13 @@ const courses = [
 
 const courseContainer = document.getElementById('courses-wrapper');
 
-courses.forEach((course) => {
+courses.forEach((course, idx) => {
   const card = document.createElement('div');
-  card.className = 'card d-flex flex-row align-items-center p-2 border-0 course-card';
+  if (idx >= 2) {
+    card.className = 'card flex-row align-items-center p-2 border-0 course-card active-more-bnt';
+  } else {
+    card.className = 'card flex-row align-items-center p-2 border-0 course-card';
+  }
 
   const imgContainer = document.createElement('div');
   imgContainer.className = 'course-img-container flex-shrink-0';
@@ -82,4 +86,12 @@ courses.forEach((course) => {
   card.appendChild(courseText);
 
   courseContainer.appendChild(card);
+});
+
+const moreBtn = document.getElementById('more-btn');
+const activeMoreBtn = document.querySelectorAll('.active-more-bnt');
+
+moreBtn.addEventListener('click', () => {
+  activeMoreBtn.forEach(btn => btn.classList.toggle('active-more-bnt'));
+  moreBtn.innerHTML = moreBtn.textContent === 'MORE' ? 'LESS' : 'MORE';
 });
