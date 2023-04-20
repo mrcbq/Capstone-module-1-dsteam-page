@@ -146,7 +146,7 @@ If you like this project consider give me a like.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to microverse
+Design by Cindy Shin, GUI & Graphic Designer, https://www.behance.net/adagio07, thanks for sharing the layout idea an design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
