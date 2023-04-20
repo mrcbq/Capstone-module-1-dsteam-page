@@ -1,38 +1,35 @@
-<a name="readme-top"></a>
+<a id="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
+- [📖 About the Project](#📖-dsteam-landing-page)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
+  - [🚀 Live Demo](#🚀-live-demo)
+- [💻 Getting Started](#💻-getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
+- [👥 Author](#👥-author)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributors](#contributors)
 - [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
+- [🙏 Acknowledgements](#🙏-acknowledgments)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio Mobile First <a name="Portfolio Mobile first version"></a>
+## 📖 DSteam Landing page 
 
-> This is the first mobile version of my portfolio
+**DSteam Landing page** There is the first capstone project for create a web using one design, using mobile firts modern techniques.
 
-**Portfolio Mobile First** There is the first exercise for create a portfolio web page app, using mobile firts modern techniques.
-
-## 🛠 Built With <a name="built-with"></a>
+### 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -50,21 +47,17 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **Portfolio web version Using only html and css**
 - **Mobile first, Responsive Desing**
 - **Using gh actions as a linter and hint as a local linter**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"> [🚀 Back to top](#📗-table-of-contents) </p>
 
 <!-- live demo -->
 
-### 🚀 Live Demo <a name="live-demo"></a>
+### 🚀 Live Demo
 
-> **Please visit my application in following link.**
-
-- <p align="left"><a href="https://mrcbq.github.io/portfolio-mobile-first/">https://mrcbq.github.io/portfolio-mobile-first/</a></p>
+- <p align="left"><a href="https://mrcbq.github.io/Capstone-module-1-dsteam-page/#">LP for InfoSec Company</a></p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,8 +65,8 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
-clone and use this template
+To get a local copy up and running, follow these steps:
+Clone the repo and use this template
 
 ### Prerequisites
 
@@ -86,7 +79,7 @@ Open index.html on your browser.
 ### Setup
 
 Clone this repository:
-git clone https://github.com/mrcbq/portfolio-mobile-first.git to your desired folder and change the readme file for your fits.
+git clone https://github.com/mrcbq/Capstone-module-1-dsteam-page to your desired folder and change the readme file for your fits.
 
 ### Install
 
@@ -95,9 +88,8 @@ No requires libraries extra.
 
 ### Usage
 
-To run the project, execute the following command:
-
-Open the index.html on your favorite browser.
+Open Index.HTML on your favorite browser
+No requires libraries extra.
 
 ### Run tests
 
@@ -112,7 +104,7 @@ Git Hub Pages: use this instructions: https://livecode247.com/deploying-a-static
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+### 👥 Author
 
 👤 **Marco Baquero**
 
@@ -124,27 +116,9 @@ Git Hub Pages: use this instructions: https://livecode247.com/deploying-a-static
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributors <a name="contributing"></a>
+### 🤝 Contributors <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-
-👤 **Joaquin Calle Aranzolo**
-
-- GitHub: [Joaquin123455](https://github.com/Joaquin123455)
-- Twitter: [@CalleJoaquinn](https://twitter.com/CalleJoaquinn)
-- LinkedIn: [Joaquin Calle Aranzolo](https://www.linkedin.com/in/joaquin-calle-aranzolo-695bba260/)
-
-👤 **Alvaro Iporre**
-
-- GitHub: [@alvaroiporre](https://github.com/alvaroiporre)
-- Twitter: [@alvaro.iporre](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alvaro-iporre-martiez-501533124/)
-
-> 👤 **Gardimy Charles**
-
-- GitHub: [@Gardimy](https://github.com/Gardimy)
-- Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
-- LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
 
 Feel free to check the [issues page](../../issues/).
 
@@ -152,11 +126,11 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+### 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[implement popups]**
-- [ ] **[use another linter]**
-- [ ] **[implemented express or nest.js]**
+- [ ] **[implement other sections]**
+- [ ] **[Add more info to courses section]**
+- [ ] **[Implemented express or nest.js]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
