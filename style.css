@@ -209,7 +209,7 @@ body {
   margin: 0 auto;
   background: none;
   width: 100%;
-  padding: 1rem 0rem;
+  padding: 1rem 0;
 }
 
 #more-btn::after {
@@ -219,7 +219,7 @@ body {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 5px 5px 0px 5px;
+  border-width: 5px 5px 0 5px;
   border-color: #ec5242 transparent transparent transparent;
 }
 
@@ -232,15 +232,13 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #414246;
-}
-
-.footer-main-top {
   padding: 3rem;
 }
 
 .footer-main-top > h3 {
   padding: 1rem;
 }
+
 .partners {
   display: flex;
   flex-direction: row;

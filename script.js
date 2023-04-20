@@ -92,6 +92,6 @@ const moreBtn = document.getElementById('more-btn');
 const activeMoreBtn = document.querySelectorAll('.active-more-bnt');
 
 moreBtn.addEventListener('click', () => {
-  activeMoreBtn.forEach(btn => btn.classList.toggle('active-more-bnt'));
+  activeMoreBtn.forEach((btn) => btn.classList.toggle('active-more-bnt'));
   moreBtn.innerHTML = moreBtn.textContent === 'MORE' ? 'LESS' : 'MORE';
 });
