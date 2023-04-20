@@ -22,146 +22,143 @@
 </head>
 
 <body>
-	<div class="main-page">
 
-		<header>
-			<nav class="display-none fixed-top" id="nav-destop">
-				<div class="topBar">
-					<img src="/icons/Icon - Twitter.png"></img>
-					<img src="/icons/faceLogo.png" class="invert"></img>
-					<a href="#">English</a>
-					<a href="#">My page</a>
-					<a href="#">Logout</a>
+	<header>
+		<nav class="display-none fixed-top" id="nav-destop">
+			<div class="topBar">
+				<img src="/icons/Icon - Twitter.png"></img>
+				<img src="/icons/faceLogo.png" class="invert"></img>
+				<a href="#">English</a>
+				<a href="#">My page</a>
+				<a href="#">Logout</a>
+			</div>
+			<div class="navbar nav-btm">
+				<a class="logo" href="#"><img class="logo-img" src="images/logo.png" alt="dsteam logo"></a>
+				<div class="nav-items">
+					<a class="item" href="/about.html">About</a>
+					<a class="item" href="#">Program</a>
+					<a class="item" href="#">Join</a>
+					<a class="item" href="#">Sponsor</a>
+					<a class="item" href="#">News</a>
+					<a class="item" href="#">Campaign</a>
 				</div>
-				<div class="navbar nav-btm">
-					<a class="logo" href="#"><img class="logo-img" src="images/logo.png" alt="dsteam logo"></a>
-					<div class="nav-items">
-						<a class="item" href="#">About</a>
-						<a class="item" href="#">Program</a>
-						<a class="item" href="#">Join</a>
-						<a class="item" href="#">Sponsor</a>
-						<a class="item" href="#">News</a>
-						<a class="item" href="#">Campaign</a>
+			</div>
+		</nav>
+		<nav class="navbar fixed-top" id="nav-mobile">
+			<div class="container-fluid">
+				<span class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+					aria-controls="offcanvasNavbar"> <span class="navbar-toggler-icon"></span>
+				</span>
+				<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+					aria-labelledby="offcanvasNavbarLabel">
+					<div class="offcanvas-header">
+						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+							<li class="nav-item"> <a class="nav-link lato" href="/index.html">Home</a> </li>
+							<li class="nav-item"> <a class="nav-link lato" href="/about.html">About</a> </li>
+						</ul>
 					</div>
 				</div>
-			</nav>
-			<nav class="navbar fixed-top" id="nav-mobile">
-				<div class="container-fluid">
-					<span class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
-						data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"> <span class="navbar-toggler-icon"></span>
-					</span>
-					<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
-						aria-labelledby="offcanvasNavbarLabel">
-						<div class="offcanvas-header">
-							<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-						</div>
-						<div class="offcanvas-body">
-							<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-								<li class="nav-item"> <a class="nav-link lato" href="#home">Home</a> </li>
-								<li class="nav-item"> <a class="nav-link lato" href="#about">About</a> </li>
-							</ul>
-						</div>
-					</div>
+			</div>
+		</nav>
+	</header>
+
+	<section id="home" class="m-0">
+		<div class="">
+			<h2 class="color-red">"Hello! Hackers"</h2>
+			<h1 class="cocogoose title" id="">DSTEAM<br>Specialists in computer security <br>2023</h1>
+		</div>
+		<h6 class="greet-p ">We are dedicated to providing services and solutions related to information security and
+			Information Technology. Learn with us, learn about our Courses!</h6>
+		<div class="pt-3 pb-3">
+			<h3 class="cocogoose">2016 ~ 2023 PROVIDING INFO SEC</h3>
+			<h4>@ Medellin - Colombia</h4>
+		</div>
+	</section>
+
+	<section id="services" class="p-5">
+
+		<h2 class="color-white">Our Services</h2>
+		<div class="div-red-under-text"></div>
+
+		<div class="row pt-5 g-3" id="services-wrapper">
+			<div class="card align-items-center p-2 service-card">
+				<div class="p-1"><img src="./icons/pngwing.com.png" class="card-img invert p-1" alt="..."></div>
+				<h5 class="card-title p-1 color-red">Pen Test</h5>
+				<p class="card-text p-1 color-white">Evaluates the security of a computer system or network by
+					simulating an attack from a malicious source.</p>
+			</div>
+			<div class="card align-items-center p-2 service-card">
+				<div class="p-1"> <img src="./icons/pngwing.com (1).png" class="card-img invert p-1" alt="..."></div>
+				<h5 class="card-title p-1 color-red">S-Learning</h5>
+				<p class="card-text p-1 color-white">Online education and training in cybersecurity, learn about the latest
+					tools for protecting digital assets. </p>
+			</div>
+			<div class="card align-items-center p-2 service-card">
+				<div class="p-1"> <img src="./icons/pngwing.com (2).png" class="card-img invert p-1" alt="...">
 				</div>
-			</nav>
-		</header>
-
-		<section id="home" class="m-0">
-			<div class="greet">
-				<h2 class="color-red">"Hello! Hackers"</h2>
-				<h1 class="cocogoose" id="title">DSTEAM<br>Specialists in computer security <br>2023</h1>
+				<h5 class="card-title p-1 color-red">Incident Response</h5>
+				<p class="card-text p-1 color-white">Provides support and assistance in the event of a security incident or
+					breach.</p>
 			</div>
-			<h6 class="greet-p ">We are dedicated to providing services and solutions related to information security and
-				Information Technology. Learn with us, learn about our Courses!</h6>
-			<div class="pt-3 pb-3">
-				<h3 class="cocogoose">2016 ~ 2023 PROVIDING INFO SEC</h3>
-				<h4>@ Medellin - Colombia</h4>
+			<div class="card align-items-center p-2 service-card">
+				<div class="p-1"> <img src="./icons/pngwing.com (4).png" class="card-img invert p-1" alt="...">
+				</div>
+				<h5 class="card-title p-1 color-red">Vulnerability Management</h5>
+				<p class="card-text p-1 color-white">Assessment of a system to identify vulnerabilities and prioritize
+					remediation</p>
 			</div>
-		</section>
+			<div class="card align-items-center p-2 service-card">
+				<div class="p-1"> <img src="./icons/pngwing.com (5).png" class="card- invert p-1" alt="...">
+				</div>
+				<h5 class="card-title p-1 color-red">Consulting</h5>
+				<p class="card-text p-1 color-white">Expert advice on security-related matters. We provide
+					risk assessments, and other security-related services.</p>
+			</div>
+		</div>
 
-		<section id="services" class="p-5">
+		<button class="contact-button"> Contact to DSTEAM 2023 </button>
+		<p class="display-none see-whole-progam">SEE THE WHOLE SERVICES</p>
 
-			<h2 class="color-white">Our Services</h2>
+	</section>
+
+
+	<section id="featured-courses" class="p-5">
+
+		<h2 class="color-black">Featured Courses</h2>
+		<div class="div-red-under-text"></div>
+		<div class="row d-flex pt-5 g-3" id="courses-wrapper">
+			<!-- cards generated auto by javascript -->
+		</div>
+
+		<button id="more-btn">MORE</button>
+
+	</section>
+
+	<footer class="display-none show-on-desktop" id="">
+		<div class="footer-main-top">
+			<h3 class="color-white">Partner</h3>
 			<div class="div-red-under-text"></div>
-
-			<div class="row pt-5 g-3" id="services-wrapper">
-				<div class="card align-items-center p-2 service-card">
-					<div class="p-1"><img src="./icons/pngwing.com.png" class="card-img invert p-1" alt="..."></div>
-					<h5 class="card-title p-1 color-red">Pen Test</h5>
-					<p class="card-text p-1 color-white">Evaluates the security of a computer system or network by
-						simulating an attack from a malicious source.</p>
-				</div>
-				<div class="card align-items-center p-2 service-card">
-					<div class="p-1"> <img src="./icons/pngwing.com (1).png" class="card-img invert p-1" alt="..."></div>
-					<h5 class="card-title p-1 color-red">S-Learning</h5>
-					<p class="card-text p-1 color-white">Online education and training in cybersecurity, learn about the latest
-						tools for protecting digital assets. </p>
-				</div>
-				<div class="card align-items-center p-2 service-card">
-					<div class="p-1"> <img src="./icons/pngwing.com (2).png" class="card-img invert p-1" alt="...">
-					</div>
-					<h5 class="card-title p-1 color-red">Incident Response</h5>
-					<p class="card-text p-1 color-white">Provides support and assistance in the event of a security incident or
-						breach.</p>
-				</div>
-				<div class="card align-items-center p-2 service-card">
-					<div class="p-1"> <img src="./icons/pngwing.com (4).png" class="card-img invert p-1" alt="...">
-					</div>
-					<h5 class="card-title p-1 color-red">Vulnerability Management</h5>
-					<p class="card-text p-1 color-white">Assessment of a system to identify vulnerabilities and prioritize
-						remediation</p>
-				</div>
-				<div class="card align-items-center p-2 service-card">
-					<div class="p-1"> <img src="./icons/pngwing.com (5).png" class="card- invert p-1" alt="...">
-					</div>
-					<h5 class="card-title p-1 color-red">Consulting</h5>
-					<p class="card-text p-1 color-white">Expert advice on security-related matters. We provide
-						risk assessments, and other security-related services.</p>
-				</div>
-			</div>
-
-			<button class="contact-button"> Contact to DSTEAM 2023 </button>
-			<p class="display-none see-whole-progam">SEE THE WHOLE SERVICES</p>
-
-		</section>
-
-
-		<section id="featured-courses" class="p-5">
-
-			<h2 class="color-black">Featured Courses</h2>
-			<div class="div-red-under-text"></div>
-			<div class="row d-flex pt-5 g-3" id="courses-wrapper">
-				<!-- cards generated auto by javascript -->
-			</div>
-
-			<button id="more-btn">MORE</button>
-
-		</section>
-
-		<footer id="footer-main">
-			<div class="footer-main-top">
-				<h3 class="color-white">Partner</h3>
-				<div class="div-red-under-text"></div>
-				<ul class="partners">
-					<li><img src="/icons/mozillalogo.png" alt="mozilla logo"></li>
-					<li><img src="/icons/googlelogo.png" alt="google logo"></li>
-					<li><img src="/icons/naverlogo.png" alt="naver logo"></li>
-					<li><img src="/icons/daumkakaologo.png" alt="daumkakao logo"></li>
-					<li><img src="/icons/airbnblogo.png" alt="airbnb logo"></li>
-				</ul>
-			</div>
-			<div class="footer-main-btm">
-				<img src="/icons/ccommonskorea.png" alt="creative commons korea">
-				<p>2015 Creative Commons Korea. <br> Some Rights reserved
-				<span class="display-none show-on-desktop"> 달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다. <br> 자세한 이용기능 내용과
+			<ul class="partners">
+				<li><img src="/icons/mozillalogo.png" alt="mozilla logo"></li>
+				<li><img src="/icons/googlelogo.png" alt="google logo"></li>
+				<li><img src="/icons/naverlogo.png" alt="naver logo"></li>
+				<li><img src="/icons/daumkakaologo.png" alt="daumkakao logo"></li>
+				<li><img src="/icons/airbnblogo.png" alt="airbnb logo"></li>
+			</ul>
+		</div>
+		<div class="footer-main-btm">
+			<img src="/icons/ccommonskorea.png" alt="creative commons korea">
+			<p>2015 Creative Commons Korea. <br> Some Rights reserved
+				<span class="display-none show-on-desktop"> 달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수
+					있습니다. <br> 자세한 이용기능 내용과
 					허락조건은 http://creativecommons.org/licences/by/2.0/kr 를 보세요
 				</span>
-				</p>
-			</div>
-		</footer>
-
-	</div>
-
+			</p>
+		</div>
+	</footer>
 
 	<script src="script.js"></script>
 

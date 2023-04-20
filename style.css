@@ -95,10 +95,6 @@ body {
   color: #272a31;
 }
 
-#home {
-  padding: 8rem 6rem;
-}
-
 .greet-p {
   margin: 0 auto;
   font-size: 1rem;
@@ -115,7 +111,7 @@ body {
   border: 1px solid #ec5242;
 }
 
-#title {
+.title {
   font-family: "cocogoose", sans-serif;
   font-size: 3em;
   text-align: left;
@@ -133,6 +129,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 8rem 6rem;
   min-height: 100vh;
 }
 
@@ -266,6 +263,72 @@ body {
   background-color: #f2f2f2;
 }
 
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(./images/homeBack.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 8rem 6rem;
+  min-height: 100vh;
+}
+
+.about-subtle {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+#about-title {
+  background: none;
+  text-align: center;
+  -webkit-text-fill-color: #ec5242;
+}
+
+#paraf-about {
+  background-color: #f6fdfd;
+  margin: 2rem;
+  text-align: center;
+}
+
+.p-about {
+  text-align: center;
+}
+
+.p-about > h5 > a {
+  color: #414246;
+}
+
+.about-btm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-btm h3,
+.about-btm h2,
+.about-btm p,
+.about-btm img {
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-btm > img {
+  max-width: 500px;
+  border: 1px solid #41424617;
+}
+
+.img-years-old-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem;
+}
+
 @media (min-width: 768px) {
   #nav-destop {
     display: block;
@@ -324,8 +387,27 @@ body {
     display: flex;
   }
 
-  
   .show-on-desktop {
     display: inline-block;
+  }
+
+  .hide-on-desktop {
+    display: none;
+  }
+
+  #footer-about-desktop {
+    background-color: #2e2e2e;
+  }
+
+  .footer-about-btm-desktop {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 3rem;
+    justify-items: center;
+  }
+
+  .footer-about-btm-desktop p {
+    color: #b6b8bd;
   }
 }
