@@ -31,7 +31,7 @@ body {
 }
 
 #offcanvasNavbar {
-  background: url(./images/homeBack.jpg);
+  background: url('./images/homeBack.jpg');
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -117,7 +117,7 @@ body {
   text-align: left;
   margin: 0;
   padding: 0;
-  background: url(/images/backMatrixRed.jpg);
+  background: url('./images/backMatrixRed.jpg');
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-position: center;
@@ -125,7 +125,7 @@ body {
 }
 
 #home {
-  background: url(./images/homeBack.jpg);
+  background: url('./images/homeBack.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -134,7 +134,7 @@ body {
 }
 
 #services {
-  background-image: url(/images/backBlack.jpg);
+  background-image: url('./images/backBlack.jpg');
 }
 
 #services-wrapper {
@@ -265,7 +265,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url(./images/homeBack.jpg);
+  background: url('./images/homeBack.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
