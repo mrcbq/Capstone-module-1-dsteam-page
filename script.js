@@ -53,13 +53,13 @@ courses.forEach((course, idx) => {
 
   const imgBg = document.createElement('img');
   imgBg.className = 'card-img-bg p-1';
-  imgBg.alt = '...';
+  imgBg.alt = 'card-logo';
   imgBg.src = bgSource;
   imgContainer.appendChild(imgBg);
 
   const imgLogo = document.createElement('img');
   imgLogo.className = 'card-img-course p-1';
-  imgLogo.alt = '...';
+  imgLogo.alt = 'card-logo';
   imgLogo.src = course.logoSource;
   imgContainer.appendChild(imgLogo);
 
@@ -75,6 +75,10 @@ courses.forEach((course, idx) => {
   subtitle.className = 'card-title color-red';
   subtitle.textContent = course.subtitle;
   courseText.appendChild(subtitle);
+  
+  const grayLine = document.createElement('div');
+  grayLine.className = 'div-under-text-color-gray';
+  courseText.appendChild(grayLine);
 
   const description = document.createElement('p');
   description.className = 'card-text color-black';

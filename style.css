@@ -194,7 +194,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   padding: 2rem 0;
 }
 
@@ -371,6 +370,12 @@ a:hover {
 
 .a-mail {
   color: #272a31;
+}
+
+.div-under-text-color-gray {
+  width: 1.5rem;
+  border: 0.5px solid #b6b8bd;
+  margin-bottom: .3rem;
 }
 
 @media (min-width: 768px) {
