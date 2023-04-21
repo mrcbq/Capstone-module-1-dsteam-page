@@ -375,7 +375,7 @@ a:hover {
 .div-under-text-color-gray {
   width: 1.5rem;
   border: 0.5px solid #b6b8bd;
-  margin-bottom: .3rem;
+  margin-bottom: 0.3rem;
 }
 
 @media (min-width: 768px) {
