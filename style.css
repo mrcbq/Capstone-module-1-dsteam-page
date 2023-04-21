@@ -44,7 +44,7 @@ body {
   display: flex;
   justify-content: end;
   align-items: center;
-  gap: 2rem;
+  gap: 0.5rem;
   padding: 0.2rem 7rem;
   background-color: #3e3e3e;
   font-size: 0.9rem;
@@ -59,6 +59,8 @@ body {
 .topBar > a {
   color: #d3d3d3;
   text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .logo-img {
@@ -136,8 +138,8 @@ body {
 
 #home {
   background: url("./images/homeBack.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-position: top;
+  background-repeat: repeat-x;
   background-size: cover;
   padding: 6rem 1.5rem 0 1.5rem;
 }
@@ -390,7 +392,7 @@ a:hover {
   }
 
   #services {
-    padding: 6rem 8rem;
+    padding: 3 rem 8rem;
   }
 
   #services-wrapper {
@@ -407,8 +409,16 @@ a:hover {
     padding: 6rem 8rem;
   }
 
+  .title {
+    font-size: 3rem;
+  }
+
   .card-title {
     min-width: 3rem;
+  }
+
+  .text-home h3 {
+    padding-top: 2rem;
   }
 
   .service-card {
@@ -449,8 +459,20 @@ a:hover {
     display: none;
   }
 
+  .footer-main-top {
+    padding: 1rem;
+  }
+
+  .partners {
+    padding: 2rem 9rem 1rem;
+  }
+
   #footer-about-desktop {
     background-color: #2e2e2e;
+  }
+
+  .footer-main-btm {
+    padding: 3rem 5rem 1rem;
   }
 
   .footer-about-btm-desktop {
@@ -461,11 +483,41 @@ a:hover {
     justify-items: center;
   }
 
+  .footer-main-btm {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .footer-main-btm > img {
+    width: 60%;
+  }
+
+  div.footer-main-btm > p > span {
+    font-size: 0.8rem;
+    padding-top: 1rem;
+  }
+
   .footer-about-btm-desktop p {
     color: #b6b8bd;
   }
 
   #about {
     padding: 8rem 6rem;
+  }
+
+  #about-title {
+    padding: 1rem 7rem;
+  }
+
+  .about-btm h3 {
+    padding: 3rem 10rem 0.5rem;
+  }
+
+  .about-btm p {
+    padding: 1rem 9rem;
+  }
+
+  .footer-about-btm-desktop > p > span {
+    font-size: 0.8rem;
+    padding-top: 1rem;
   }
 }
