@@ -4,14 +4,13 @@ const courses = [
     logoSource: './images/codse.png',
     title: 'CODSE',
     subtitle: 'Certificación Certified Offensive and Defensive Security EXPERT',
-    description: "The course is fully certifiable, and at the end of the course you must pass a certification exam, which consists of several 100% practical solution statements, related to a digital forensic investigation, of the type 'Capture The Flag' computer challenge. The certification voucher is 100% included in the offered price of the Professional level ethical hacking and defense course.",
-    bgColor: 'red',
+    description: "At the end of the course you must pass a certification exam, which consists of several 100% practical solution statements, related to a digital forensic investigation, of the type 'Capture The Flag' computer challenge.",
   },
   {
     logoSource: './images/codse2.png',
     title: 'CODSE Xtreme',
     subtitle: 'Certificación Certified Offensive and Defensive Security Professional',
-    description: "The 'Extreme' version of the professional course is characterized by including new topics and attack and defense techniques such as: Pivoting, Lateral Movement, Aggressive escalation of privileges in Linux and Windows systems, SIEM event correlation systems, practical exercises such as Red teams, where an entire corporate infrastructure such as Windows Active Directory is attacked.",
+    description: "Include new topics and attack and defense techniques such as: Pivoting, Lateral Movement, Aggressive escalation of privileges in Linux and Windows systems, SIEM event correlation systems, practical exercises.",
   },
   {
     logoSource: './images/kaliLogo.png',
@@ -29,13 +28,13 @@ const courses = [
     logoSource: './images/wireshark.png',
     title: 'Network packet analysis',
     subtitle: 'Technique for diagnosing and solving problems in computer networks',
-    description: 'Wireshark and Scapy are two free software tools that allow the analysis and manipulation of network packets. This topic covers configuring and using these tools, as well as network packet analysis techniques for identifying network problems and resolving security problems.',
+    description: 'Analysis and manipulation of network packets. Network packet analysis techniques for identifying network problems and resolving security problems.',
   },
   {
     logoSource: './images/nmap.jpg',
     title: 'Scanning and Enumeration Technical Tests with NMAP',
     subtitle: 'Gather information about a network or system',
-    description: 'Finding vulnerabilities and potential entry points. NMAP is an open-source tool used to perform these scanning and enumeration technical tests on a network or system.',
+    description: 'Finding vulnerabilities and potential entry points. Scanning and enumeration technical tests on a network or system.',
   },
 ];
 
