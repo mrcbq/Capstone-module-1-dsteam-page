@@ -1,0 +1,525 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.cocogoose {
+  font-family: "cocogoose", sans-serif;
+}
+
+.display-none {
+  display: none;
+}
+
+.color-white {
+  color: #d3d3d3;
+  text-align: center;
+}
+
+.color-black {
+  color: #272a31;
+  text-align: center;
+}
+
+.color-red {
+  color: #ec5242;
+}
+
+#offcanvasNavbar {
+  background: url("./images/homeBack.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  -webkit-background-clip: content-box;
+  width: 80%;
+}
+
+.topBar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.2rem 7rem;
+  background-color: #3e3e3e;
+  font-size: 0.9rem;
+}
+
+.topBar > img {
+  width: 1.2rem;
+  height: 1.2rem;
+  cursor: pointer;
+}
+
+.topBar > a {
+  color: #d3d3d3;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.logo-img {
+  width: 10rem;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items :first-child {
+  color: #ec5242;
+}
+
+.nav-items :last-child {
+  color: #ec5242;
+  border: 2px solid #ec5242;
+  padding: 0.2rem 1.2rem;
+}
+
+.nav-btm {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: space-between;
+  justify-items: stretch;
+  align-items: center;
+  padding: 0.5rem 7rem;
+  background-color: #f8f9fa;
+}
+
+.item {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.tittle-home {
+  padding: 0;
+}
+
+.greet-p {
+  margin: 0 auto;
+  font-size: 0.87rem;
+  text-align: left;
+  background: #f7f7f7;
+  border: 2px solid #fff;
+  width: 98%;
+  padding: 1rem;
+}
+
+.text-home {
+  padding: 1rem 0 3rem 0;
+}
+
+.div-red-under-text {
+  margin: auto;
+  width: 3rem;
+  border: 1px solid #ec5242;
+}
+
+.title {
+  font-family: "cocogoose", sans-serif;
+  font-size: 2.5rem;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  background: url("./images/backMatrixRed.jpg");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: center;
+  background-size: contain;
+  word-wrap: break-word;
+}
+
+#home {
+  background: url("./images/homeBack.jpg");
+  background-position: top;
+  background-repeat: repeat-x;
+  background-size: cover;
+  padding: 6rem 1.5rem 0 1.5rem;
+}
+
+#services {
+  background-image: url("./images/backBlack.jpg");
+  padding: 2rem 1rem;
+}
+
+#services-wrapper {
+  display: flex;
+}
+
+.service-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr;
+  background-color: #272a31ac;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-button {
+  display: block;
+  margin: 2rem auto;
+  padding: 2rem;
+  color: #d3d3d3;
+  background: #ec5242;
+  font-weight: 800;
+}
+
+.invert {
+  filter: invert(100%);
+  width: 50px;
+  height: 50px;
+}
+
+.card-title {
+  font-size: 0.8rem;
+  word-wrap: break-word;
+}
+
+.card-text {
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+#featured-courses {
+  padding: 2rem 1rem;
+}
+
+#courses-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.course-card {
+  display: flex;
+  align-items: baseline;
+  padding: 0;
+}
+
+.card-course-text {
+  padding: 0.5rem;
+}
+
+.course-img-container {
+  position: relative;
+  width: 85px;
+  height: 85px;
+}
+
+.card-img-bg {
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 50%;
+}
+
+.card-img-course {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.92);
+  bottom: 0;
+  right: 0;
+  width: 88%;
+}
+
+#more-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #272a31;
+  border: 1px solid #b6b8bd;
+  margin: 0 auto;
+  background: none;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+#more-btn::after {
+  content: "";
+  display: flex;
+  margin-left: 5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #ec5242 transparent transparent transparent;
+}
+
+.active-more-bnt {
+  display: none;
+}
+
+.footer-main-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #414246;
+  padding: 3rem;
+}
+
+.footer-main-top > h3 {
+  padding: 1rem;
+}
+
+.partners {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+
+.partners > li {
+  list-style: none;
+}
+
+.footer-main-btm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 1rem;
+  justify-items: center;
+  background-color: #f2f2f2;
+}
+
+.footer-main-btm > img {
+  width: 90%;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("./images/homeBack.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem 1rem;
+}
+
+.about-subtle {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+#about-title {
+  background: none;
+  text-align: center;
+  -webkit-text-fill-color: #ec5242;
+}
+
+#paraf-about {
+  background-color: #fff;
+  margin: 2rem;
+  text-align: center;
+}
+
+.p-about {
+  text-align: center;
+  font-size: 0.87rem;
+}
+
+a:hover {
+  color: #414246;
+}
+
+.about-btm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.about-btm h3,
+.about-btm h2,
+.about-btm p,
+.about-btm img {
+  padding: 1rem;
+  text-align: center;
+}
+
+.about-btm > img {
+  max-width: 300px;
+  border: 1px solid #41424617;
+  margin: 4rem 2rem;
+}
+
+.about-paraf {
+  font-size: 0.87rem;
+}
+
+.img-years-old-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.a-mail {
+  color: #272a31;
+}
+
+.div-under-text-color-gray {
+  width: 1.5rem;
+  border: 0.5px solid #b6b8bd;
+  margin-bottom: 0.3rem;
+}
+
+@media (min-width: 768px) {
+  #nav-destop {
+    display: block;
+  }
+
+  #nav-mobile {
+    display: none;
+  }
+
+  .greet-p {
+    margin: 0;
+    width: 60%;
+  }
+
+  #home {
+    padding: 12rem 8rem;
+  }
+
+  #services {
+    padding: 3rem 8rem;
+  }
+
+  #services-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    width: 95%;
+    margin: 1rem auto;
+    padding: 3rem 0;
+    gap: 0.8rem;
+  }
+
+  #featured-courses {
+    padding: 6rem 8rem;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .card-title {
+    min-width: 3rem;
+  }
+
+  .text-home h3 {
+    padding-top: 2rem;
+  }
+
+  .service-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .course-card {
+    width: 50%;
+  }
+
+  .contact-button {
+    display: none;
+  }
+
+  .see-whole-progam {
+    display: flex;
+    justify-content: center;
+    color: #d3d3d3;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  #more-btn {
+    display: none;
+  }
+
+  .active-more-bnt {
+    display: flex;
+  }
+
+  .show-on-desktop {
+    display: block;
+  }
+
+  .hide-on-desktop {
+    display: none;
+  }
+
+  .footer-main-top {
+    padding: 1rem;
+  }
+
+  .partners {
+    padding: 2rem 9rem 1rem;
+  }
+
+  #footer-about-desktop {
+    background-color: #2e2e2e;
+  }
+
+  .footer-main-btm {
+    padding: 3rem 5rem 1rem;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .footer-about-btm-desktop {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 3rem;
+    justify-items: center;
+  }
+
+  .footer-main-btm > img {
+    width: 60%;
+  }
+
+  .footer-about-btm-desktop > p > span {
+    font-size: 0.8rem;
+    padding-top: 1rem;
+  }
+
+  div.footer-main-btm > p > span {
+    font-size: 0.8rem;
+    padding-top: 1rem;
+  }
+
+  .footer-about-btm-desktop p {
+    color: #b6b8bd;
+  }
+
+  #about {
+    padding: 8rem 6rem;
+  }
+
+  #about-title {
+    padding: 1rem 7rem;
+  }
+
+  .about-btm h3 {
+    padding: 3rem 10rem 0.5rem;
+  }
+
+  .about-btm p {
+    padding: 1rem 9rem;
+  }
+}
