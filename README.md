@@ -29,6 +29,13 @@
 
 **DSteam Landing page** There is the first capstone project for create a web using one design, using mobile firts modern techniques.
 
+Is based on behance design by Cindy Shin, GUI & Graphic Designer, https://www.behance.net/adagio07, thanks for sharing the layout idea an design.
+
+You can check this little video with the introduccion at the project and a little explaination how I build it.
+
+Please check the video  https://www.loom.com/share/c4c7b61e07f646aaa06ccef6244f53be
+
+
 ### 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
