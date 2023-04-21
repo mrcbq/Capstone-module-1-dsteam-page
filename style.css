@@ -392,7 +392,7 @@ a:hover {
   }
 
   #services {
-    padding: 3 rem 8rem;
+    padding: 3rem 8rem;
   }
 
   #services-wrapper {
@@ -473,6 +473,7 @@ a:hover {
 
   .footer-main-btm {
     padding: 3rem 5rem 1rem;
+    grid-template-columns: 1fr 2fr;
   }
 
   .footer-about-btm-desktop {
@@ -483,12 +484,13 @@ a:hover {
     justify-items: center;
   }
 
-  .footer-main-btm {
-    grid-template-columns: 1fr 2fr;
-  }
-
   .footer-main-btm > img {
     width: 60%;
+  }
+
+  .footer-about-btm-desktop > p > span {
+    font-size: 0.8rem;
+    padding-top: 1rem;
   }
 
   div.footer-main-btm > p > span {
@@ -514,10 +516,5 @@ a:hover {
 
   .about-btm p {
     padding: 1rem 9rem;
-  }
-
-  .footer-about-btm-desktop > p > span {
-    font-size: 0.8rem;
-    padding-top: 1rem;
   }
 }
