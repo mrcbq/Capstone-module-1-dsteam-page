@@ -140,7 +140,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 6rem 1.5rem 0 1.5rem;
-  /* min-height: 100vh; */
 }
 
 #services {
@@ -155,7 +154,6 @@ body {
 .service-card {
   display: grid;
   grid-template-columns: 1fr 1fr 4fr;
-  /* background: rgba(0, 0, 0, 0.5); */
   background-color: #272a31ac;
   flex-direction: row;
   align-items: center;
