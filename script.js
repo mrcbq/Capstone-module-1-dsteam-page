@@ -75,7 +75,7 @@ courses.forEach((course, idx) => {
   subtitle.className = 'card-title color-red';
   subtitle.textContent = course.subtitle;
   courseText.appendChild(subtitle);
-  
+
   const grayLine = document.createElement('div');
   grayLine.className = 'div-under-text-color-gray';
   courseText.appendChild(grayLine);
