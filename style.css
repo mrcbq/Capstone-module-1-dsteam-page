@@ -31,7 +31,7 @@ body {
 }
 
 #offcanvasNavbar {
-  background: url('./images/homeBack.jpg');
+  background: url("./images/homeBack.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -97,21 +97,21 @@ body {
 }
 
 .tittle-home {
-  padding: 5rem 1rem;
+  padding: 0;
 }
 
 .greet-p {
   margin: 0 auto;
-  font-size: 1rem;
+  font-size: 0.87rem;
   text-align: left;
   background: #f7f7f7;
   border: 2px solid #fff;
-  width: 95%;
+  width: 98%;
   padding: 1rem;
 }
 
 .text-home {
-  padding: 5rem 1rem;
+  padding: 1rem 0 3rem 0;
 }
 
 .div-red-under-text {
@@ -122,11 +122,11 @@ body {
 
 .title {
   font-family: "cocogoose", sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: left;
   margin: 0;
   padding: 0;
-  background: url('./images/backMatrixRed.jpg');
+  background: url("./images/backMatrixRed.jpg");
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-position: center;
@@ -135,17 +135,17 @@ body {
 }
 
 #home {
-  background: url('./images/homeBack.jpg');
+  background: url("./images/homeBack.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 8rem 2rem;
-  min-height: 100vh;
+  padding: 6rem 1.5rem 0 1.5rem;
+  /* min-height: 100vh; */
 }
 
 #services {
-  background-image: url('./images/backBlack.jpg');
-  padding: 6rem 1rem;
+  background-image: url("./images/backBlack.jpg");
+  padding: 2rem 1rem;
 }
 
 #services-wrapper {
@@ -155,14 +155,15 @@ body {
 .service-card {
   display: grid;
   grid-template-columns: 1fr 1fr 4fr;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
+  background-color: #272a31ac;
   flex-direction: row;
   align-items: center;
 }
 
 .contact-button {
   display: block;
-  margin: 3rem auto;
+  margin: 2rem auto;
   padding: 2rem;
   color: #d3d3d3;
   background: #ec5242;
@@ -186,7 +187,7 @@ body {
 }
 
 #featured-courses {
-  padding: 5rem 1rem;
+  padding: 2rem 1rem;
 }
 
 #courses-wrapper {
@@ -194,6 +195,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: 2rem 0;
 }
 
 .course-card {
@@ -281,29 +283,32 @@ body {
 
 .footer-main-btm {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding: 3rem;
+  padding: 1rem;
   justify-items: center;
   background-color: #f2f2f2;
+}
+
+.footer-main-btm > img {
+  width: 90%;
 }
 
 #about {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url('./images/homeBack.jpg');
+  background: url("./images/homeBack.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 8rem 6rem;
-  min-height: 100vh;
+  padding: 2rem 1rem;
 }
 
 .about-subtle {
   display: flex;
   justify-content: center;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 #about-title {
@@ -313,16 +318,17 @@ body {
 }
 
 #paraf-about {
-  background-color: #f6fdfd;
+  background-color: #fff;
   margin: 2rem;
   text-align: center;
 }
 
 .p-about {
   text-align: center;
+  font-size: 0.87rem;
 }
 
-.p-about > h5 > a {
+a:hover {
   color: #414246;
 }
 
@@ -330,19 +336,26 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1rem;
+  overflow: hidden;
 }
 
 .about-btm h3,
 .about-btm h2,
 .about-btm p,
 .about-btm img {
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
 .about-btm > img {
-  max-width: 500px;
+  max-width: 300px;
   border: 1px solid #41424617;
+  margin: 4rem 2rem;
+}
+
+.about-paraf {
+  font-size: 0.87rem;
 }
 
 .img-years-old-container {
@@ -351,7 +364,9 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  padding: 3rem;
+  padding: 1rem;
+  width: 100%;
+  overflow: hidden;
 }
 
 .a-mail {
@@ -450,5 +465,9 @@ body {
 
   .footer-about-btm-desktop p {
     color: #b6b8bd;
+  }
+
+  #about {
+    padding: 8rem 6rem;
   }
 }
