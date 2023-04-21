@@ -132,7 +132,6 @@ body {
   background-position: center;
   background-size: contain;
   word-wrap: break-word;
-  background-clip: text;
 }
 
 #home {
