@@ -4,13 +4,13 @@ const courses = [
     logoSource: './images/codse.png',
     title: 'CODSE',
     subtitle: 'Certificación Certified Offensive and Defensive Security EXPERT',
-    description: "Certification exam, consists of several 100% practical solution statements, related to a digital forensic investigation.",
+    description: 'Certification exam, consists of several 100% practical solution statements, related to a digital forensic investigation.',
   },
   {
     logoSource: './images/codse2.png',
     title: 'CODSE Xtreme',
     subtitle: 'Certificación Certified Offensive and Defensive Security Professional',
-    description: "Attack and defense techniques: Pivoting, Lateral Movement, Aggressive escalation of privileges in Linux and Windows systems.",
+    description: 'Attack and defense techniques: Pivoting, Lateral Movement, Aggressive escalation of privileges in Linux and Windows systems.',
   },
   {
     logoSource: './images/kaliLogo.png',
